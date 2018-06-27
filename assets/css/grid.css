@@ -1,8 +1,13 @@
+body{
+  background-color: #f7f7f7;
+}
 .masonry-layout {
-  column-count: 2;
-  -webkit-column-count: 2;
-  column-gap: 2;
-  -webkit-column-gap: 0;
+  column-count: 3;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-gap: 1;
+  -webkit-column-gap: 1;
+  -moz-column-gap: 2;
 }
 .masonry-layout__panel {
   break-inside: avoid;
@@ -12,16 +17,6 @@
 .masonry-layout__panel-content {
   padding: 30px;
   border-radius: 10px;
-}
-.bg--red {
-  background-color: #E74C3C;
-}
-.bg--green {
-  background-color: #26A65B;
-}
-.bg--purple {
-  background-color: #8E44AD;
-}
-.bg--orange {
-  background-color: #F89406;
+  background-color: tomato;
+  color: #333;
 }
